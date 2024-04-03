@@ -20,7 +20,7 @@ export default function Home() {
             <p>Encuentra más de nuestra comunidad en CNCF 🧑🏻‍🤝🏻‍🧑🏻</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://discord.gg/xNHSfJAyg9" className={styles.card}>
             <h3>Discord &rarr;</h3>
             <p>Únete a nosotros en nuestra comunidad en Discord 📍</p>
           </a>
