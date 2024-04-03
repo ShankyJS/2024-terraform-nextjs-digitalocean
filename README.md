@@ -21,6 +21,7 @@ Requisitos:
 
 - Cuenta en Digitalocean [registrate aquí.](m.do.co/c/e3c4799e0fa4)
 - Crear un Personal Access Token [documentación aquí](www.digitalocean.com/docs/apis-clis/api/create-personal-access-token/)
+- Crear una cuenta en Cloudflare con al menos un DNS registrado [link](https://www.cloudflare.com/)
 
 ## Clona el repositorio
 
@@ -69,3 +70,9 @@ Una vez que termines de probar el proyecto puedes destruirlo.
 ````
 terraform destroy --auto-approve
 ````
+
+## Siguientes pasos
+
+Una mejora que puedes colocar en este repositorio es permitir el uso de S3 para manejar el `terraform.tfstate`, esta demo maneja el estado localmente que es inseguro (por pérdida de dispositivo).
+
+Terraform recomienda manejar una bucket de S3 para mantener el estado de Terraform.
