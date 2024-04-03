@@ -1,0 +1,8 @@
+# Token de Digitalocean
+do_api_token = "value"
+# API token para Cloudflare
+cf_api_token = "value"
+# Dominio importado en digitalocean por ejemplo: shankyjs.com
+domain_name = "value"
+# Registro tipo A (subdominio)
+record_name = "value"
