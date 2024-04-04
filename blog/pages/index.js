@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Hola CNCF <a href="https://community.cncf.io/san-salvador/">San Salvador!👋🏻</a>
+          Hola CNCF <a href="https://community.cncf.io/san-salvador/">San Salvador!🚀🚀</a>
         </h1>
 
         <div className={styles.grid}>
